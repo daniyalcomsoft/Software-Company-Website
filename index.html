@@ -1,0 +1,1383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Bootstrap Icon CSS -->
+    <link href="assets/css/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Fontawesome all CSS -->
+    <link href="assets/css/all.min.css" rel="stylesheet" />
+    <!-- Fontawesome CSS -->
+    <link href="assets/css/fontawesome.min.css" rel="stylesheet" />
+    <!-- Swiper slider CSS -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <!-- Magnific-popup CSS -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <!--  Style CSS  -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Title -->
+    <title>Parashoot</title>
+    <link rel="icon" href="assets/img/logo-icon.ico" type="image/x-icon" />
+
+    <style>
+        .head-text {
+            display: inline;
+            -webkit-text-fill-color: #e4e4e4;
+        }
+
+        @media (max-width: 576px) {
+            .head-text {
+                display: block;
+            }
+        }
+
+        #preloader {
+            background: #000 url(./assets/img/Logo.png) no-repeat center center;
+            background-size: 20%;
+            height: 100vh;
+            width: 100%;
+            position: fixed;
+            z-index: 100;
+        }
+
+        /* .creasoft-wrap{
+            height: 100vh;
+            overflow-y: scroll;
+            scroll-snap-type: y mandatory;   
+        }
+        .creasoft-wrap section{
+            scroll-snap-align: start;
+        } */
+    </style>
+</head>
+
+<body>
+    <!-- Preloader Start -->
+    <!-- <div class="preloader"> -->
+    <div id="preloader">
+        <div class="loader">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <!-- Preloader End -->
+    <!-- Start header section -->
+    <header>
+        <!-- <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse container" id="navbarNav">
+                  <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+            </nav> -->
+        <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong fixed-top shadow-lg">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto m-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" onclick="checkLinks()" href="#top">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" onclick="checkLinks()" href="#abou-us-area">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" onclick="checkLinks()" href="#service-area">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" onclick="checkLinks()" href="#project-area">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" onclick="checkLinks()" href="#testimonial-area">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" onclick="checkLinks()" href="#contact-area">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- End header section -->
+
+    <!-- Start creasoft-wrap section -->
+    <main class="creasoft-wrap layout2">
+        <!-- Start line animation section -->
+        <div class="line_wrap layout2">
+            <div class="line_item"></div>
+            <div class="line_item"></div>
+            <div class="line_item"></div>
+            <div class="line_item"></div>
+            <div class="line_item"></div>
+        </div>
+        <!-- End line animation section -->
+
+        <!-- Start hero-area section -->
+        <section class="hero-area">
+            <div id="particles-js"></div>
+            <div class="verticale-social">
+                <ul class="vertical-media">
+                    <li><a href="https://www.facebook.com/parashoot.st?mibextid=ZbWKwL">Facebook</a></li>
+                    <li>
+                        <a href="https://www.instagram.com/reel/Cm1_9kTqMkT/?igshid=YmMyMTA2M2Y=">Instagram</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/parashoot-studios/">Linkedin</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hero-wrapper">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="hero-content layout2">
+                                <img src="assets/img/Logo.png" class="img-responsive" style="
+                      width: 100%;
+                      height: auto;
+                      margin-left: -18px;
+                      margin-top: 25px;
+                    " alt="" />
+                                <p>Gliding Through The Digital Landscape</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6"></div>
+                        <div class="col-lg-6">
+                            <div class="hero-content layout2">
+                                <h1 style="font-size: 27px">
+                                    Parashoot<span>We Create Your
+                                        <div class="head-text">Metaverse</div>
+                                    </span>
+                                </h1>
+                                <p>
+                                    Parashoot is a team of trained experts which are
+                                    professional in their art, we work in agile methodology and
+                                    follow the best practices to deliver quality to our clients.
+                                </p>
+                                <div class="buttons">
+                                    <div class="cmn-btn">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                        <a href="#abou-us-area">About Us</a>
+                                    </div>
+                                    <div class="cmn-btn layout-two">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                        <a href="#project-area">See Projects</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="hero-img">
+                                <img src="assets/img/hero-vector-1.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End hero-area section -->
+
+        <!-- Start services-area section -->
+        <section class="services-area layout2 sec-mar" id="service-area">
+            <div class="container">
+                <div class="title-wrap wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <div class="sec-title white">
+                        <span>Solutions</span>
+                        <h2>Services We Provide</h2>
+                        <p>
+                            The solution often turns out more beautiful than the puzzle. We
+                            will Always look at the solution, not the problem.
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper services-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide wow animate fadeInUp" data-wow-delay="200ms"
+                            data-wow-duration="1500ms">
+                            <div class="single-service layout2">
+                                <span>01</span>
+                                <div class="icon">
+                                    <!-- <img src="assets/img/icons/service-icon-1.png" alt=""> -->
+                                    <img src="assets/img/icons/service__icon_01.png" alt="" />
+                                </div>
+                                <h4>Metaverse</h4>
+                                <p>
+                                    In science fiction, the "metaverse" is a hypothetical iteration of the Internet as a
+                                    single, universal, and immersive virtual world that is facilitated by the use of
+                                    virtual reality and augmented reality headsets.
+                                </p>
+                                <div class="read-btn">
+                                    <a href=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide wow animate fadeInUp" data-wow-delay="200ms"
+                            data-wow-duration="1500ms">
+                            <div class="single-service layout2">
+                                <span>02</span>
+                                <div class="icon">
+                                    <!-- <img src="assets/img/icons/service-icon-1.png" alt=""> -->
+                                    <img src="assets/img/icons/service__icon_02.png" alt="" />
+                                </div>
+                                <h4>NFT</h4>
+                                <p>
+                                    A non-fungible token (NFT) is a unique digital identifier that cannot be
+                                    copied, substituted, or subdivided, that is recorded in a blockchain, and
+                                    that is used to certify authenticity and ownership.
+                                </p>
+                                <div class="read-btn">
+                                    <a href=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide wow animate fadeInUp" data-wow-delay="200ms"
+                            data-wow-duration="1500ms">
+                            <div class="single-service layout2">
+                                <span>03</span>
+                                <div class="icon">
+                                    <!-- <img src="assets/img/icons/service-icon-1.png" alt=""> -->
+                                    <img src="assets/img/icons/service__icon_03.png" alt="" />
+                                </div>
+                                <h4>Environment Building</h4>
+                                <p>
+                                    It is a crucial component as it sets the atmosphere of the
+                                    game and other entertainment projects. This is a process when the overall
+                                    environment is designed for a game to realize a particular vision in the
+                                    gameplay.
+                                </p>
+                                <div class="read-btn">
+                                    <a href=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide wow animate fadeInUp" data-wow-delay="200ms"
+                            data-wow-duration="1500ms">
+                            <div class="single-service layout2">
+                                <span>04</span>
+                                <div class="icon">
+                                    <!-- <img src="assets/img/icons/service-icon-1.png" alt=""> -->
+                                    <img src="assets/img/icons/service__icon_03.png" alt="" />
+                                </div>
+                                <h4>Game Development</h4>
+                                <p>
+                                    Games are produced through the software development process.
+                                    Games are developed as a creative outlet and to generate profit.
+                                    Game development is considered both an art and a science.
+                                    It allows you to express your creativity
+                                </p>
+                                <div class="read-btn">
+                                    <a href=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide wow animate fadeInUp" data-wow-delay="200ms"
+                            data-wow-duration="1500ms">
+                            <div class="single-service layout2">
+                                <span>05</span>
+                                <div class="icon">
+                                    <!-- <img src="assets/img/icons/service-icon-1.png" alt=""> -->
+                                    <img src="assets/img/icons/service__icon_01.png" alt="" />
+                                </div>
+                                <h4>App/iOS Development</h4>
+                                <p>
+                                    Mobile application development is the process of
+                                    creating software applications that run on a mobile device, and a typical
+                                    mobile application utilizes a network connection to work with remote computing
+                                    resources.
+                                </p>
+                                <div class="read-btn">
+                                    <a href=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide wow animate fadeInUp" data-wow-delay="400ms"
+                            data-wow-duration="1500ms">
+                            <div class="single-service layout2">
+                                <span>06</span>
+                                <div class="icon">
+                                    <!-- <img src="assets/img/icons/service-icon-2.png" alt=""> -->
+                                    <img src="assets/img/icons/service__icon_02.png" alt="" />
+                                </div>
+                                <h4>Web Development</h4>
+                                <p>
+                                    Web development is the process of developing websites
+                                    for the Internet or an intranet. Web development can range from developing a
+                                    simple single static page of plain text to complex web applications.
+                                </p>
+                                <div class="read-btn">
+                                    <a href=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide wow animate fadeInUp" data-wow-delay="600ms"
+                            data-wow-duration="1500ms">
+                            <div class="single-service layout2">
+                                <span>07</span>
+                                <div class="icon">
+                                    <!-- <img src="assets/img/icons/service-icon-3.png" alt=""> -->
+                                    <img src="assets/img/icons/service__icon_04.png" alt="" />
+                                </div>
+                                <h4>Digital Marketing</h4>
+                                <p>
+                                    Digital marketing is the component of marketing that uses the Internet and online
+                                    based
+                                    digital technologies such as desktop computers, mobile phones and other digital
+                                    media
+                                    and platforms to promote products and services.
+                                </p>
+                                <div class="read-btn">
+                                    <a href=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination d-md-none d-md-block"></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+        <!-- End services-area section -->
+
+        <!-- Start project-area section -->
+        <section class="project-area sec-mar" id="project-area">
+            <div class="container">
+                <div class="title-wrap">
+                    <div class="sec-title white">
+                        <span>Our Exclusive</span>
+                        <h2>Projects</h2>
+                        <p>Here are some of our best projects.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <ul class="isotope-menu layout2">
+                            <li class="active" data-filter="*">All</li>
+                            <li data-filter=".mv">Metaverse</li>
+                            <li data-filter=".web">Web Development</li>
+                            <li data-filter=".app">App Development</li>
+                            <li data-filter=".graphic">3D Modeling</li>
+                            <li data-filter=".dm">Digital Marketing</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row g-4 project-items">
+                    <div class="col-md-6 col-lg-4 single-item graphic mv">
+                        <div class="item-img">
+                            <a href="#"><img src="assets/img/project/project-01.jpg" alt="" /></a>
+                        </div>
+                        <div class="item-inner-cnt">
+                            <span>Metaverse Development</span>
+                            <h4>Metaverse Park</h4>
+                            <div class="view-btn">
+                                <a href=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 single-item graphic mv">
+                        <div class="item-img">
+                            <a href="#"><img src="assets/img/project/project-02.jpg" alt="" /></a>
+                        </div>
+                        <div class="item-inner-cnt">
+                            <span>3D Character Modeling</span>
+                            <h4>Metaverse Character</h4>
+                            <div class="view-btn">
+                                <a href=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 single-item web">
+                        <div class="item-img">
+                            <a href="#"><img src="assets/img/project/project-05.jpg" alt="" /></a>
+                        </div>
+                        <div class="item-inner-cnt">
+                            <span>Crypto NFT Marketplace</span>
+                            <h4>Coffee Pay</h4>
+                            <div class="view-btn">
+                                <a href=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 single-item app mv">
+                        <div class="item-img">
+                            <a href="#"><img src="assets/img/project/project-03.jpg" alt="" /></a>
+                        </div>
+                        <div class="item-inner-cnt">
+                            <span>App Development (Android/iOS)</span>
+                            <h4>Mobile Games</h4>
+                            <div class="view-btn">
+                                <a href=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 single-item app">
+                        <div class="item-img">
+                            <a href="#"><img src="assets/img/project/project-06.jpg" alt="" /></a>
+                        </div>
+                        <div class="item-inner-cnt">
+                            <span>App Development</span>
+                            <h4>Solar Navigation</h4>
+                            <div class="view-btn">
+                                <a href=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 single-item web">
+                        <div class="item-img">
+                            <a href="#"><img src="assets/img/project/project-04.jpg" alt="" /></a>
+                        </div>
+                        <div class="item-inner-cnt">
+                            <span>Websites Development</span>
+                            <h4>E-Commerce Website</h4>
+                            <div class="view-btn">
+                                <a href=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 single-item web">
+                        <div class="item-img">
+                            <a href="#"><img src="assets/img/project/project-07.png" alt="" /></a>
+                        </div>
+                        <div class="item-inner-cnt">
+                            <span>Web Development</span>
+                            <h4>Vehicle Maintenance Website</h4>
+                            <div class="view-btn">
+                                <a href=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 single-item dm">
+                        <div class="item-img">
+                            <a href="#"><img src="assets/img/project/project-08.png" alt="" /></a>
+                        </div>
+                        <div class="item-inner-cnt">
+                            <span>Digital Marketing</span>
+                            <h4>Social Media</h4>
+                            <div class="view-btn">
+                                <a href=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 single-item graphic mv">
+                        <div class="item-img">
+                            <a href="#"><img src="assets/img/project/project-09.jpg" alt="" /></a>
+                        </div>
+                        <div class="item-inner-cnt">
+                            <span>Environment Building</span>
+                            <h4>Realistic Game Trailer</h4>
+                            <div class="view-btn">
+                                <a href=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End project-area section -->
+
+        <!-- Start features-area section -->
+        <section class="features-area">
+            <div class="container">
+                <div class="title-wrap wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <div class="sec-title white">
+                        <span>Winning</span>
+                        <h2>Accomplishments</h2>
+                        <p>These are what we strive for.</p>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3 wow animate fadeInUp" data-wow-delay="200ms"
+                        data-wow-duration="1500ms">
+                        <div class="single-feature">
+                            <div class="feature-inner">
+                                <div class="icon">
+                                    <img src="assets/img/icons/Project_completed.png" alt="" />
+                                </div>
+                                <span class="counter">150</span><sup>+</sup>
+                                <h4>Project Completed</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 wow animate fadeInUp" data-wow-delay="400ms"
+                        data-wow-duration="1500ms">
+                        <div class="single-feature">
+                            <div class="feature-inner">
+                                <div class="icon">
+                                    <img src="assets/img/icons/satisfied_clients.png" alt="" />
+                                </div>
+                                <span class="counter">50</span><sup>+</sup>
+                                <h4>Satisfied Clients</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 wow animate fadeInUp" data-wow-delay="600ms"
+                        data-wow-duration="1500ms">
+                        <div class="single-feature">
+                            <div class="feature-inner">
+                                <div class="icon">
+                                    <img src="assets/img/icons/expert_team.png" alt="" />
+                                </div>
+                                <span class="counter">5</span><sup>+</sup>
+                                <h4>Expert Teams</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 wow animate fadeInUp" data-wow-delay="800ms"
+                        data-wow-duration="1500ms">
+                        <div class="single-feature">
+                            <div class="feature-inner">
+                                <div class="icon">
+                                    <img src="assets/img/icons/award_win.png" alt="" />
+                                </div>
+                                <span class="counter">8</span><sup>+</sup>
+                                <h4>Certificates</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End features-area section -->
+
+        <!-- Start testimonial-area section -->
+        <section class="testimonial-area" id="testimonial-area">
+            <div class="container-fluid p-0">
+                <div class="title-wrap">
+                    <div class="sec-title white">
+                        <span>Testimonial</span>
+                        <h2>What Clients Say About Us</h2>
+                        <p>
+                            Parashoot Studios have been life savers. The entire team does a tremendous job and is
+                            always ready to help. They are friendly and professional, and they give valuable
+                            advice and also listen to your needs. Thank you, Parashoot Studios, for your hard
+                            work!
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper testimonial-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="single-testimonial">
+                                <div class="quote">
+                                    <i class="fas fa-quote-right"></i>
+                                </div>
+                                <h5>Eartlyjafty</h5>
+                                <span>Game Design</span>
+                                <div class="stars">
+                                    <a href="#"><i class="fas fa-star"></i></a>
+                                    <a href="#"><i class="fas fa-star"></i></a>
+                                    <a href="#"><i class="fas fa-star"></i></a>
+                                    <a href="#"><i class="fas fa-star"></i></a>
+                                    <a href="#"><i class="fas fa-star"></i></a>
+                                </div>
+                                <p>
+                                    Excellent work delivered by team of Parashoot. The Game
+                                    design they gave me is 100% amazing and fit to my
+                                    requirements. I Can say they are the best at here providing
+                                    good services with good budget. Keep Up the good work.
+                                </p>
+                                <!-- <div class="reviewer">
+                                    <img src="assets/img/reivewer.jpg" alt="">
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="single-testimonial">
+                                <div class="quote">
+                                    <i class="fas fa-quote-right"></i>
+                                </div>
+                                <h5>Smokenhutt</h5>
+                                <span>3D Charater Modeling</span>
+                                <div class="stars">
+                                    <a href="#"><i class="fas fa-star"></i></a>
+                                    <a href="#"><i class="fas fa-star"></i></a>
+                                    <a href="#"><i class="fas fa-star"></i></a>
+                                    <a href="#"><i class="fas fa-star"></i></a>
+                                    <a href="#"><i class="fas fa-star"></i></a>
+                                </div>
+                                <p>
+                                    Excellent work. very responsive. listen to requirements very
+                                    careful. very satisfied with end result. Highly recommended.
+                                </p>
+                                <!-- <div class="reviewer">
+                                    <img src="assets/img/reivewer-1.jpg" alt="">
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="single-testimonial">
+                                <div class="quote">
+                                    <i class="fas fa-quote-right"></i>
+                                </div>
+                                <h5>Faridkhan856</h5>
+                                <span>Environment Building</span>
+                                <div class="stars">
+                                    <a href="#"><i class="fas fa-star"></i></a>
+                                    <a href="#"><i class="fas fa-star"></i></a>
+                                    <a href="#"><i class="fas fa-star"></i></a>
+                                    <a href="#"><i class="fas fa-star"></i></a>
+                                    <a href="#"><i class="fas fa-star"></i></a>
+                                </div>
+                                <p>
+                                    Team was super considerate and was very helpful. They
+                                    communicated with me very well and updated me with the
+                                    progress time to time. The project files were organized and
+                                    the quality of the environment was equal with concept I gave
+                                    them. I would definitely recommend their services to anyone
+                                    who need.
+                                </p>
+                                <!-- <div class="reviewer">
+                                    <img src="assets/img/reivewer.jpg" alt="">
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="single-testimonial">
+                                <div class="quote">
+                                    <i class="fas fa-quote-right"></i>
+                                </div>
+                                <h5>Crazybosnian97</h5>
+                                <span>Game Design</span>
+                                <div class="stars">
+                                    <a href="#"><i class="fas fa-star"></i></a>
+                                    <a href="#"><i class="fas fa-star"></i></a>
+                                    <a href="#"><i class="fas fa-star"></i></a>
+                                    <a href="#"><i class="fas fa-star"></i></a>
+                                    <a href="#"><i class="fas fa-star"></i></a>
+                                </div>
+                                <p>
+                                    Parashoot had some amazing game designers. Not only did they
+                                    complete project on time, they also did a number of
+                                    modifications and adjustments I requested that weren’t even
+                                    discussed previously. Best experience I had . Hopefully we
+                                    get to do another project soon!
+                                </p>
+                                <!-- <div class="reviewer">
+                                    <img src="assets/img/reivewer.jpg" alt="">
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="single-testimonial">
+                                <div class="quote">
+                                    <i class="fas fa-quote-right"></i>
+                                </div>
+                                <h5>Deodespain0</h5>
+                                <span>Unity Game</span>
+                                <div class="stars">
+                                    <a href="#"><i class="fas fa-star"></i></a>
+                                    <a href="#"><i class="fas fa-star"></i></a>
+                                    <a href="#"><i class="fas fa-star"></i></a>
+                                    <a href="#"><i class="fas fa-star"></i></a>
+                                    <a href="#"><i class="fas fa-star"></i></a>
+                                </div>
+                                <p>
+                                    Parashoot have a good team of developers! they listen all
+                                    your suggestions and requirements with very good disposal!
+                                    we will work more times with them for sure!
+                                </p>
+                                <!-- <div class="reviewer">
+                                    <img src="assets/img/reivewer.jpg" alt="">
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination d-md-none d-md-block"></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+        <!-- End testimonial-area section -->
+
+        <!-- Start our-partner section -->
+        <!-- <section class="our-partner">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3">
+                        <div class="sec-title white layout2">
+                            <span>Satisfied Clients</span>
+                            <h2>Our Partners</h2>
+                            <div class="-partnerslider-navigator">
+                                <div class="swiper-button-prev-c"><i class="bi bi-chevron-left"></i></div>
+                                <div class="swiper-button-next-c"><i class="bi bi-chevron-right"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="swiper partner-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="single-partner">
+                                        <img src="assets/img/partner/partner-010.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="single-partner">
+                                        <a href=""><img src="assets/img/partner/partner-01.png" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="single-partner">
+                                        <img src="assets/img/partner/partner-02.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="single-partner">
+                                        <img src="assets/img/partner/partner-05.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="single-partner">
+                                        <img src="assets/img/partner/partner-06.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="single-partner">
+                                        <img src="assets/img/partner/partner-07.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="single-partner">
+                                        <img src="assets/img/partner/partner-08.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="single-partner">
+                                        <img src="assets/img/partner/partner-09.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="single-partner">
+                                        <img src="assets/img/partner/partner-04.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="single-partner">
+                                        <img src="assets/img/partner/partner-11.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="single-partner">
+                                        <img src="assets/img/partner/partner-03.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="single-partner">
+                                        <img src="assets/img/partner/partner-12.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- End our-partner section -->
+
+        <!-- Start our-team section -->
+        <!-- <section class="our-team sec-mar" id="team-area">
+            <div class="container">
+                <div class="title-wrap wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <div class="sec-title white">
+                        <span>Our Team</span>
+                        <h2>Meet Our Team</h2>
+                        <p>Curabitur sed facilisis erat. Vestibulum pharetra eros eget fringilla porttitor. on Duis a orci nunc. Suspendisse ac convallis sapien, quis commodo libero.</p>
+                    </div>
+                </div>
+                <div class="swiper team-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                            <div class="single-team layout2">
+                                <div class="member-img">
+                                    <img src="assets/img/team/team-0.jpg" alt="">
+                                    <svg width="185" height="299" viewBox="0 0 167 269" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M4.25412 0.814453C1.68125 2.62384 0 5.61553 0 8.99991V269H167C167 269 47 269 66.5 112.171C75.5581 39.3209 20.2679 8.22409 4.25412 0.814453Z" fill="#191A1C" />
+                                    </svg>
+                                    <ul class="team-social">
+                                        <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="team-inner">
+                                    <h4>Muzammil</h4>
+                                    <span>CEO</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                            <div class="single-team layout2">
+                                <div class="member-img">
+                                    <img src="assets/img/team/team-1.jpg" alt="">
+                                    <svg width="185" height="299" viewBox="0 0 167 269" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M4.25412 0.814453C1.68125 2.62384 0 5.61553 0 8.99991V269H167C167 269 47 269 66.5 112.171C75.5581 39.3209 20.2679 8.22409 4.25412 0.814453Z" fill="#191A1C" />
+                                    </svg>
+                                    <ul class="team-social">
+                                        <li><a href="https://www.instagram.com/polabrick/"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/in/ahmedidrees/"><i class="fab fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="team-inner">
+                                    <h4>Ahmed</h4>
+                                    <span>Sr. 3D Generalist</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide wow animate fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                            <div class="single-team layout2">
+                                <div class="member-img">
+                                    <img src="assets/img/team/team-2.jpg" alt="">
+                                    <svg width="185" height="299" viewBox="0 0 167 269" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M4.25412 0.814453C1.68125 2.62384 0 5.61553 0 8.99991V269H167C167 269 47 269 66.5 112.171C75.5581 39.3209 20.2679 8.22409 4.25412 0.814453Z" fill="#191A1C" />
+                                    </svg>
+                                    <ul class="team-social">
+                                        <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="team-inner">
+                                    <h4>Hira iqbal</h4>
+                                    <span>UI/UX Designer</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide wow animate fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                            <div class="single-team layout2">
+                                <div class="member-img">
+                                    <img src="assets/img/team/team-8.jpg" alt="">
+                                    <svg width="185" height="299" viewBox="0 0 167 269" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M4.25412 0.814453C1.68125 2.62384 0 5.61553 0 8.99991V269H167C167 269 47 269 66.5 112.171C75.5581 39.3209 20.2679 8.22409 4.25412 0.814453Z" fill="#191A1C" />
+                                    </svg>
+                                    <ul class="team-social">
+                                        <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="team-inner">
+                                    <h4>Haroon Afzal</h4>
+                                    <span>Business Development Officer</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide wow animate fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                            <div class="single-team layout2">
+                                <div class="member-img">
+                                    <img src="assets/img/team/team-3.jpg" alt="">
+                                    <svg width="185" height="299" viewBox="0 0 167 269" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M4.25412 0.814453C1.68125 2.62384 0 5.61553 0 8.99991V269H167C167 269 47 269 66.5 112.171C75.5581 39.3209 20.2679 8.22409 4.25412 0.814453Z" fill="#191A1C" />
+                                    </svg>
+                                    <ul class="team-social">
+                                        <li><a href="https://www.facebook.com/raza.muhammad.7927?mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/in/raza-muhammad-7a399ba4"><i class="fab fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="team-inner">
+                                    <h4>Raza Muhammad</h4>
+                                    <span>Game Dev</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide wow animate fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                            <div class="single-team layout2">
+                                <div class="member-img">
+                                    <img src="assets/img/team/team-4.jpg" alt="">
+                                    <svg width="185" height="299" viewBox="0 0 167 269" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M4.25412 0.814453C1.68125 2.62384 0 5.61553 0 8.99991V269H167C167 269 47 269 66.5 112.171C75.5581 39.3209 20.2679 8.22409 4.25412 0.814453Z" fill="#191A1C" />
+                                    </svg>
+                                    <ul class="team-social">
+                                        <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="team-inner">
+                                    <h4>Sharjeel</h4>
+                                    <span>3D Modeler</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide wow animate fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                            <div class="single-team layout2">
+                                <div class="member-img">
+                                    <img src="assets/img/team/team-5.jpg" alt="">
+                                    <svg width="185" height="299" viewBox="0 0 167 269" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M4.25412 0.814453C1.68125 2.62384 0 5.61553 0 8.99991V269H167C167 269 47 269 66.5 112.171C75.5581 39.3209 20.2679 8.22409 4.25412 0.814453Z" fill="#191A1C" />
+                                    </svg>
+                                    <ul class="team-social">
+                                        <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="team-inner">
+                                    <h4>Sanaullah Kayani</h4>
+                                    <span>Full-Stack Dev</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide wow animate fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                            <div class="single-team layout2">
+                                <div class="member-img">
+                                    <img src="assets/img/team/team-6.jpg" alt="">
+                                    <svg width="185" height="299" viewBox="0 0 167 269" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M4.25412 0.814453C1.68125 2.62384 0 5.61553 0 8.99991V269H167C167 269 47 269 66.5 112.171C75.5581 39.3209 20.2679 8.22409 4.25412 0.814453Z" fill="#191A1C" />
+                                    </svg>
+                                    <ul class="team-social">
+                                        <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="team-inner">
+                                    <h4>Haider</h4>
+                                    <span>Jr. 3D Modeler</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide wow animate fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                            <div class="single-team layout2">
+                                <div class="member-img">
+                                    <img src="assets/img/team/team-7.jpg" alt="">
+                                    <svg width="185" height="299" viewBox="0 0 167 269" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M4.25412 0.814453C1.68125 2.62384 0 5.61553 0 8.99991V269H167C167 269 47 269 66.5 112.171C75.5581 39.3209 20.2679 8.22409 4.25412 0.814453Z" fill="#191A1C" />
+                                    </svg>
+                                    <ul class="team-social">
+                                        <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="team-inner">
+                                    <h4>Hafiz Mobeen</h4>
+                                    <span>Graphic Designer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section> -->
+        <!-- End our-team section -->
+
+        <!-- Start about-area section -->
+        <section class="about-area sec-mar-bottom" id="abou-us-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 or-2 wow animate fadeIn" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        <div class="sec-title white layout2">
+                            <span>Get To Know</span>
+                            <h2>About Us</h2>
+                        </div>
+                        <div class="about-left layout2">
+                            <h3>We design, code & develop from start to finish.</h3>
+                            <p>
+                                Parashoot is a software company that provides services that
+                                believe in delivering the best solutions to every IT related
+                                requirement. We are Providing App development Services, iOS
+                                development and Web Development services to our community.
+                                Moreover Appealing 3D Game Development is also included in our
+                                services. Last but not least digital marketing services are
+                                also delivered to required customers.
+                            </p>
+                            <div class="company-since layout2">
+                                <div class="company-logo">
+                                    <!-- <img src="assets/img/logo.svg" alt=""> -->
+                                    <img src="assets/img/Logo.png" alt="" />
+                                </div>
+                                <strong>#1</strong>
+                                <h4>Give rise to the gamer<span>Inside You</span></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 or-1 wow animate fadeIn" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        <div class="about-right layout2">
+                            <div class="banner-1">
+                                <img src="assets/img/about-baner-01.png" alt="" />
+                            </div>
+                            <div class="banner-2">
+                                <img src="assets/img/about-baner-2.jpg" alt="" />
+                                <div class="banner2-inner">
+                                    <div class="play">
+                                        <a class="video-popup" href="http://www.youtube.com/watch?v=0O2aH4XLbto"><i
+                                                class="fas fa-play"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End about-area section -->
+
+        <!-- Start priceing-plan section -->
+        <!-- <section class="priceing-plan sec-mar">
+            <div class="container">
+                <div class="title-wrap">
+                    <div class="sec-title white">
+                        <span>Getting Start</span>
+                        <h2>Pricing Plan</h2>
+                        <p>Curabitur sed facilisis erat. Vestibulum pharetra eros eget fringilla porttitor. on Duis a orci nunc. Suspendisse ac convallis sapien, quis commodo libero.</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8 col-lg-6">
+                        <div class="price-table-tab layout2">
+                            <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Pay Monthly</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Pay Yearly</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade active show" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <div class="row g-4">
+                            <div class="col-md-6 col-lg-4 wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                                <div class="price-box layout2">
+                                    <h3>Small Business</h3>
+                                    <span>Single Business</span>
+                                    <strong>$15.99<sub>/Per Month</sub></strong>
+                                    <ul class="item-list">
+                                        <li><i class="bi bi-check"></i>10 Pages Responsive Website</li>
+                                        <li><i class="bi bi-check"></i>5PPC Campaigns</li>
+                                        <li><i class="bi bi-check"></i>10 SEO Keyword</li>
+                                        <li><i class="bi bi-check"></i>5 Facebook Camplaigns</li>
+                                        <li><i class="bi bi-check"></i>2 Video Camplaigns</li>
+                                    </ul>
+                                    <div class="price-btn">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                        <a href="contact.html">Pay Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 wow animate fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                                <div class="price-box layout2">
+                                    <h3>Professional</h3>
+                                    <span>Small team</span>
+                                    <strong>$99.99<sub>/Per Month</sub></strong>
+                                    <ul class="item-list">
+                                        <li><i class="bi bi-check"></i>10 Pages Responsive Website</li>
+                                        <li><i class="bi bi-check"></i>5PPC Campaigns</li>
+                                        <li><i class="bi bi-check"></i>10 SEO Keyword</li>
+                                        <li><i class="bi bi-check"></i>5 Facebook Camplaigns</li>
+                                        <li><i class="bi bi-check"></i>2 Video Camplaigns</li>
+                                    </ul>
+                                    <div class="price-btn">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                        <a href="contact.html">Pay Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 wow animate fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                                <div class="price-box layout2">
+                                    <h3>Enterprice</h3>
+                                    <span>Large Team</span>
+                                    <strong>$120.99<sub>/Per Month</sub></strong>
+                                    <ul class="item-list">
+                                        <li><i class="bi bi-check"></i>10 Pages Responsive Website</li>
+                                        <li><i class="bi bi-check"></i>5PPC Campaigns</li>
+                                        <li><i class="bi bi-check"></i>10 SEO Keyword</li>
+                                        <li><i class="bi bi-check"></i>5 Facebook Camplaigns</li>
+                                        <li><i class="bi bi-check"></i>2 Video Camplaigns</li>
+                                    </ul>
+                                    <div class="price-btn">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                        <a href="contact.html">Pay Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <div class="row g-4">
+                            <div class="col-md-6 col-lg-4 wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                                <div class="price-box layout2">
+                                    <h3>Small Business</h3>
+                                    <span>Single Business</span>
+                                    <strong>$35.99<sub>/Per Year</sub></strong>
+                                    <ul class="item-list">
+                                        <li><i class="bi bi-check"></i>10 Pages Responsive Website</li>
+                                        <li><i class="bi bi-check"></i>5PPC Campaigns</li>
+                                        <li><i class="bi bi-check"></i>10 SEO Keyword</li>
+                                        <li><i class="bi bi-check"></i>5 Facebook Camplaigns</li>
+                                        <li><i class="bi bi-check"></i>2 Video Camplaigns</li>
+                                    </ul>
+                                    <div class="price-btn">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                        <a href="contact.html">Pay Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 wow animate fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                                <div class="price-box layout2">
+                                    <h3>Professional</h3>
+                                    <span>Small team</span>
+                                    <strong>$199.99<sub>/Per Year</sub></strong>
+                                    <ul class="item-list">
+                                        <li><i class="bi bi-check"></i>10 Pages Responsive Website</li>
+                                        <li><i class="bi bi-check"></i>5PPC Campaigns</li>
+                                        <li><i class="bi bi-check"></i>10 SEO Keyword</li>
+                                        <li><i class="bi bi-check"></i>5 Facebook Camplaigns</li>
+                                        <li><i class="bi bi-check"></i>2 Video Camplaigns</li>
+                                    </ul>
+                                    <div class="price-btn">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                        <a href="contact.html">Pay Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 wow animate fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                                <div class="price-box layout2">
+                                    <h3>Enterprice</h3>
+                                    <span>Large Team</span>
+                                    <strong>$220.99<sub>/Per Year</sub></strong>
+                                    <ul class="item-list">
+                                        <li><i class="bi bi-check"></i>10 Pages Responsive Website</li>
+                                        <li><i class="bi bi-check"></i>5PPC Campaigns</li>
+                                        <li><i class="bi bi-check"></i>10 SEO Keyword</li>
+                                        <li><i class="bi bi-check"></i>5 Facebook Camplaigns</li>
+                                        <li><i class="bi bi-check"></i>2 Video Camplaigns</li>
+                                    </ul>
+                                    <div class="price-btn">
+                                        <div class="line-1"></div>
+                                        <div class="line-2"></div>
+                                        <a href="contact.html">Pay Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- End priceing-plan section -->
+
+        <!-- Start blog-area section -->
+        <!-- <section class="blog-area">
+            <div class="container">
+                <div class="title-wrap wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <div class="sec-title white">
+                        <span>All Blog</span>
+                        <h2>Latest Post</h2>
+                        <p>Curabitur sed facilisis erat. Vestibulum pharetra eros eget fringilla porttitor. on Duis a orci nunc. Suspendisse ac convallis sapien, quis commodo libero.</p>
+                    </div>
+                </div>
+                <div class="row gy-4">
+                    <div class="col-md-6 col-lg-4 wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        <div class="single-blog layout2">
+                            <div class="blog-thumb">
+                                <a href="blog-details.html"><img src="assets/img/blog/blog-1.jpg" alt=""></a>
+                                <div class="tag">
+                                    <a href="project.html">UI/UX</a>
+                                </div>
+                            </div>
+                            <div class="blog-inner">
+                                <div class="author-date">
+                                    <a href="#">By, Admin</a>
+                                    <a href="#">22.02.2022</a>
+                                </div>
+                                <h4><a href="blog-details.html">Quisque malesuada sapien and Donec sed nunc.</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow animate fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                        <div class="single-blog layout2">
+                            <div class="blog-thumb">
+                                <a href="blog-details.html"><img src="assets/img/blog/blog-2.jpg" alt=""></a>
+                                <div class="tag">
+                                    <a href="project.html">Software</a>
+                                </div>
+                            </div>
+                            <div class="blog-inner">
+                                <div class="author-date">
+                                    <a href="#">By, Admin</a>
+                                    <a href="#">22.02.2022</a>
+                                </div>
+                                <h4><a href="blog-details.html">Suspendisse pretium magna qu nisl egestas porttitor.</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow animate fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <div class="single-blog layout2">
+                            <div class="blog-thumb">
+                                <a href="blog-details.html"><img src="assets/img/blog/blog-3.jpg" alt=""></a>
+                                <div class="tag">
+                                    <a href="project.html">Dashbord</a>
+                                </div>
+                            </div>
+                            <div class="blog-inner">
+                                <div class="author-date">
+                                    <a href="#">By, Admin</a>
+                                    <a href="#">22.02.2022</a>
+                                </div>
+                                <h4><a href="blog-details.html">In a augue sit amet erat Suspel eleifend suscipit issen.</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- End blog-area section -->
+
+        <!-- Start subscribe-newsletter section -->
+        <section class="subscribe-newsletter sec-mar-top" id="contact-area">
+            <div class="container">
+                <div class="news-letter-content">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 wow animate fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
+                            <div class="subscribe-cnt">
+                                <span>Get In Touch</span>
+                                <h3>Subscribe To Our</h3>
+                                <strong>Newsletter</strong>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 wow animate fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+                            <div class="subscribe-form">
+                                <form action="#" method="post">
+                                    <input type="email" name="email" placeholder="Type Your Email" />
+                                    <input type="submit" value="connect" />
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End subscribe-newsletter section -->
+
+        <!-- Start footer section -->
+        <footer class="footer-area">
+            <site-footer></site-footer>
+        </footer>
+        <!-- End footer section -->
+    </main>
+    <!-- End creasoft-wrap section -->
+
+    <!--cursor design-->
+    <div class="cursor"></div>
+    <!--cursor design-->
+
+    <!--  Main jQuery  -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <!-- Popper and Bootstrap JS -->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Swiper slider JS -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- Waypoints JS -->
+    <script src="assets/js/waypoints.min.js"></script>
+    <!-- Counterup JS -->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- Isotope  JS -->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!-- Magnific-popup  JS -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- Wow JS -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- Particles and app JS -->
+    <script src="assets/js/particles.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <!-- Layout JS -->
+    <script src="assets/js/layout.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/custom.js"></script>
+
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function () {
+            loader.style.display = "none";
+        });
+
+        function showMobileMenu() {
+            $(".main-nav").toggleClass("slidenav");
+        }
+        function HideMobileMenu() {
+            $(".main-nav").toggleClass("slidenav");
+        }
+    </script>
+
+    <script type="text/javascript">
+        function toggle(id, id2) {
+            var n = document.getElementById(id);
+            if (n.style.display != "none") {
+                n.style.display = "none";
+                document.getElementById(id2).setAttribute("aria-expanded", "false");
+            } else {
+                n.style.display = "";
+                document.getElementById(id2).setAttribute("aria-expanded", "true");
+            }
+        }
+        function checkLinks() {
+            console.log(window.location.href);
+            setTimeout(() => {
+                let currentLocation = window.location.href;
+                let menuItem = document.querySelectorAll("ul li a");
+                menuItem.forEach((i) => {
+                    if (i.href === currentLocation) {
+                        i.className = "nav-link active";
+                    } else {
+                        i.className = "nav-link";
+                    }
+                })
+            }, 1)
+        }
+    </script>
+</body>
+
+</html>
